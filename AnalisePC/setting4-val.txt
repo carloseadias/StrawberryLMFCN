@@ -1,0 +1,24 @@
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (123)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (143)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (141)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (383)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (264)1.jpg
+1;fresh;dataset\treino_validacao\fresh\FreshStrawberry (26)!.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (570)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (78)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (15)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (555)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (87)1.jpg
+1;fresh;dataset\treino_validacao\fresh\FreshStrawberry (66)!.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (363)1.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (106)1.jpg
+1;fresh;dataset\treino_validacao\fresh\FreshStrawberry (129)!.jpg
+1;fresh;dataset\treino_validacao\fresh\freshStrawberry (458)1.jpg
+0;rotten;dataset\treino_validacao\rotten\rottenStrawberry (321)1 (1).jpg
+0;rotten;dataset\treino_validacao\rotten\rottenStrawberry (280)1.jpg
+0;rotten;dataset\treino_validacao\rotten\rottenStrawberry (370)1.jpg
+0;rotten;dataset\treino_validacao\rotten\RottenStrawberry (82)!.jpg
+0;rotten;dataset\treino_validacao\rotten\rottenStrawberry (164)1.jpg
+0;rotten;dataset\treino_validacao\rotten\rottenStrawberry (383)1.jpg
+0;rotten;dataset\treino_validacao\rotten\rottenStrawberry (530)1.jpg
+0;rotten;dataset\treino_validacao\rotten\rottenStrawberry (497)1.jpg

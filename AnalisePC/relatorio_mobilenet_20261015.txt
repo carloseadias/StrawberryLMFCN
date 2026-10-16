@@ -1,0 +1,591 @@
+﻿================ BLOCO 4: C1 - MOBILENET SCRATCH (CENARIOS 1 A 5) ================
+
+========================================
+  MOBILENET SCRATCH - SETTING 1
+========================================
+INICIO: 00:10:12.15
+Carregando dados de: setting1-train.txt, setting1-val.txt, setting1-test.txt (275x183)...
+100%|██████████████████████████████████████| 1005/1005 [00:11<00:00, 90.34it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 95.29it/s]
+100%|████████████████████████████████████████| 177/177 [00:01<00:00, 91.59it/s]
+
+====================================================================
+Start MOBILENET [NAO PRE-TREINADO (DO ZERO)] | Cenário: setting1-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.5075) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.5085) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.5696
+------------------ Epoch 1 --------------------
+MOBILENET_ZERO tr: 0.5687 (0.5701) Recall(0): 0.4747 Recall(1): 0.6627
+MOBILENET_ZERO val: 0.5184 (0.5198) Recall(0): 0.4368 Recall(1): 0.6000
+MOBILENET_ZERO ts: 0.5621 (0.5635) Recall(0): 0.4742 Recall(1): 0.6500
+Loss: 0.2925
+------------------ Epoch 2 --------------------
+MOBILENET_ZERO tr: 0.9287 (0.9294) Recall(0): 0.8869 Recall(1): 0.9706
+MOBILENET_ZERO val: 0.8573 (0.8588) Recall(0): 0.7701 Recall(1): 0.9444
+MOBILENET_ZERO ts: 0.8464 (0.8477) Recall(0): 0.7629 Recall(1): 0.9300
+Loss: 0.1630
+------------------ Epoch 3 --------------------
+MOBILENET_ZERO tr: 0.9764 (0.9761) Recall(0): 0.9939 Recall(1): 0.9588
+MOBILENET_ZERO val: 0.9605 (0.9605) Recall(0): 0.9655 Recall(1): 0.9556
+MOBILENET_ZERO ts: 0.9291 (0.9289) Recall(0): 0.9381 Recall(1): 0.9200
+Loss: 0.0653
+------------------ Epoch 4 --------------------
+MOBILENET_ZERO tr: 0.9931 (0.9930) Recall(0): 0.9960 Recall(1): 0.9902
+MOBILENET_ZERO val: 0.9600 (0.9605) Recall(0): 0.9310 Recall(1): 0.9889
+MOBILENET_ZERO ts: 0.9692 (0.9695) Recall(0): 0.9485 Recall(1): 0.9900
+Loss: 0.0428
+
+Predict all
+MOBILENET_ZERO ts: 0.9692 (0.9695) Recall(0): 0.9485 Recall(1): 0.9900
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_ZERO | setting1-train.txt) ---
+Acc (Acurácia Global):          0.9695  (Tabela: 0.97)
+Rec (Balanced Acc / Recall M.): 0.9692  (Tabela: 0.97)
+Recall Classe 0 (Rotten):       0.9485  (Tabela: 0.95)
+Recall Classe 1 (Fresh):        0.9900  (Tabela: 0.99)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 92 |                 5   (FN = 5)
+Real Fresh  (1):                  1 |                99   (FP = 1)
+------------------------------------------------------------
+
+FIM:    00:15:32.30
+TEMPO TOTAL MOBILENET SCRATCH SETTING 1 : 320,15 segundos
+========================================
+
+
+========================================
+  MOBILENET SCRATCH - SETTING 2
+========================================
+INICIO: 00:15:32.30
+Carregando dados de: setting2-train.txt, setting2-val.txt, setting2-test.txt (275x183)...
+100%|████████████████████████████████████████| 765/765 [00:13<00:00, 58.69it/s]
+100%|████████████████████████████████████████| 197/197 [00:03<00:00, 54.87it/s]
+100%|████████████████████████████████████████| 135/135 [00:01<00:00, 69.94it/s]
+
+====================================================================
+Start MOBILENET [NAO PRE-TREINADO (DO ZERO)] | Cenário: setting2-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.5598
+------------------ Epoch 1 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.3379
+------------------ Epoch 2 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.2070
+------------------ Epoch 3 --------------------
+MOBILENET_ZERO tr: 0.9608 (0.9699) Recall(0): 0.9333 Recall(1): 0.9882
+MOBILENET_ZERO val: 0.9056 (0.9259) Recall(0): 0.8444 Recall(1): 0.9667
+MOBILENET_ZERO ts: 0.8869 (0.8883) Recall(0): 0.7938 Recall(1): 0.9800
+Loss: 0.0616
+------------------ Epoch 4 --------------------
+MOBILENET_ZERO tr: 0.9706 (0.9804) Recall(0): 0.9412 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.9556 (0.9704) Recall(0): 0.9111 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.9075 (0.9086) Recall(0): 0.8351 Recall(1): 0.9800
+Loss: 0.0203
+
+Predict all
+MOBILENET_ZERO ts: 0.9075 (0.9086) Recall(0): 0.8351 Recall(1): 0.9800
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_ZERO | setting2-train.txt) ---
+Acc (Acurácia Global):          0.9086  (Tabela: 0.91)
+Rec (Balanced Acc / Recall M.): 0.9075  (Tabela: 0.91)
+Recall Classe 0 (Rotten):       0.8351  (Tabela: 0.84)
+Recall Classe 1 (Fresh):        0.9800  (Tabela: 0.98)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 81 |                16   (FN = 16)
+Real Fresh  (1):                  2 |                98   (FP = 2)
+------------------------------------------------------------
+
+FIM:    00:19:08.11
+TEMPO TOTAL MOBILENET SCRATCH SETTING 2 : 215,81 segundos
+========================================
+
+
+========================================
+  MOBILENET SCRATCH - SETTING 3
+========================================
+INICIO: 00:19:08.11
+Carregando dados de: setting3-train.txt, setting3-val.txt, setting3-test.txt (275x183)...
+100%|████████████████████████████████████████| 765/765 [00:08<00:00, 85.44it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 93.11it/s]
+100%|████████████████████████████████████████| 135/135 [00:01<00:00, 73.43it/s]
+
+====================================================================
+Start MOBILENET [NAO PRE-TREINADO (DO ZERO)] | Cenário: setting3-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+Loss: 0.5880
+------------------ Epoch 1 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+Loss: 0.3298
+------------------ Epoch 2 --------------------
+MOBILENET_ZERO tr: 0.7922 (0.8392) Recall(0): 0.9333 Recall(1): 0.6510
+MOBILENET_ZERO val: 0.7667 (0.8296) Recall(0): 0.9556 Recall(1): 0.5778
+MOBILENET_ZERO ts: 0.7281 (0.7259) Recall(0): 0.8763 Recall(1): 0.5800
+Loss: 0.1846
+------------------ Epoch 3 --------------------
+MOBILENET_ZERO tr: 0.9775 (0.9725) Recall(0): 0.9627 Recall(1): 0.9922
+MOBILENET_ZERO val: 0.9778 (0.9704) Recall(0): 0.9556 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.9644 (0.9645) Recall(0): 0.9588 Recall(1): 0.9700
+Loss: 0.1178
+------------------ Epoch 4 --------------------
+MOBILENET_ZERO tr: 0.9725 (0.9817) Recall(0): 1.0000 Recall(1): 0.9451
+MOBILENET_ZERO val: 0.9333 (0.9556) Recall(0): 1.0000 Recall(1): 0.8667
+MOBILENET_ZERO ts: 0.9350 (0.9340) Recall(0): 1.0000 Recall(1): 0.8700
+Loss: 0.0376
+
+Predict all
+MOBILENET_ZERO ts: 0.9350 (0.9340) Recall(0): 1.0000 Recall(1): 0.8700
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_ZERO | setting3-train.txt) ---
+Acc (Acurácia Global):          0.9340  (Tabela: 0.93)
+Rec (Balanced Acc / Recall M.): 0.9350  (Tabela: 0.94)
+Recall Classe 0 (Rotten):       1.0000  (Tabela: 1.00)
+Recall Classe 1 (Fresh):        0.8700  (Tabela: 0.87)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 97 |                 0   (FN = 0)
+Real Fresh  (1):                 13 |                87   (FP = 13)
+------------------------------------------------------------
+
+FIM:    00:22:11.38
+TEMPO TOTAL MOBILENET SCRATCH SETTING 3 : 183,27 segundos
+========================================
+
+
+========================================
+  MOBILENET SCRATCH - SETTING 4
+========================================
+INICIO: 00:22:11.39
+Carregando dados de: setting4-train.txt, setting4-val.txt, setting4-test.txt (275x183)...
+100%|█████████████████████████████████████████| 90/90 [00:00<00:00, 117.15it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 96.38it/s]
+100%|█████████████████████████████████████████| 24/24 [00:00<00:00, 148.31it/s]
+
+====================================================================
+Start MOBILENET [NAO PRE-TREINADO (DO ZERO)] | Cenário: setting4-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.7654
+------------------ Epoch 1 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.5947
+------------------ Epoch 2 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.5312
+------------------ Epoch 3 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.2972
+------------------ Epoch 4 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+Loss: 0.1346
+
+Predict all
+MOBILENET_ZERO ts: 0.5000 (0.5076) Recall(0): 0.0000 Recall(1): 1.0000
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_ZERO | setting4-train.txt) ---
+Acc (Acurácia Global):          0.5076  (Tabela: 0.51)
+Rec (Balanced Acc / Recall M.): 0.5000  (Tabela: 0.50)
+Recall Classe 0 (Rotten):       0.0000  (Tabela: 0.00)
+Recall Classe 1 (Fresh):        1.0000  (Tabela: 1.00)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                  0 |                97   (FN = 97)
+Real Fresh  (1):                  0 |               100   (FP = 0)
+------------------------------------------------------------
+
+FIM:    00:22:45.00
+TEMPO TOTAL MOBILENET SCRATCH SETTING 4 : 33,61 segundos
+========================================
+
+
+========================================
+  MOBILENET SCRATCH - SETTING 5
+========================================
+INICIO: 00:22:45.00
+Carregando dados de: setting5-train.txt, setting5-val.txt, setting5-test.txt (275x183)...
+100%|██████████████████████████████████████████| 90/90 [00:00<00:00, 93.06it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 94.73it/s]
+100%|█████████████████████████████████████████| 24/24 [00:00<00:00, 168.32it/s]
+
+====================================================================
+Start MOBILENET [NAO PRE-TREINADO (DO ZERO)] | Cenário: setting5-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+Loss: 0.7330
+------------------ Epoch 1 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+Loss: 0.5894
+------------------ Epoch 2 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+Loss: 0.2731
+------------------ Epoch 3 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+Loss: 0.0845
+------------------ Epoch 4 --------------------
+MOBILENET_ZERO tr: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO val: 0.5000 (0.6667) Recall(0): 1.0000 Recall(1): 0.0000
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+Loss: 0.0262
+
+Predict all
+MOBILENET_ZERO ts: 0.5000 (0.4924) Recall(0): 1.0000 Recall(1): 0.0000
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_ZERO | setting5-train.txt) ---
+Acc (Acurácia Global):          0.4924  (Tabela: 0.49)
+Rec (Balanced Acc / Recall M.): 0.5000  (Tabela: 0.50)
+Recall Classe 0 (Rotten):       1.0000  (Tabela: 1.00)
+Recall Classe 1 (Fresh):        0.0000  (Tabela: 0.00)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 97 |                 0   (FN = 0)
+Real Fresh  (1):                100 |                 0   (FP = 100)
+------------------------------------------------------------
+
+FIM:    00:23:18.71
+TEMPO TOTAL MOBILENET SCRATCH SETTING 5 : 33,71 segundos
+========================================
+
+================ BLOCO 5: C2 - MOBILENET PRE-TREINADO (CENARIOS 1 A 5) ================
+
+========================================
+ MOBILENET PRE-TREINADO - SETTING 1
+========================================
+INICIO: 00:23:18.71
+Carregando dados de: setting1-train.txt, setting1-val.txt, setting1-test.txt (275x183)...
+100%|██████████████████████████████████████| 1005/1005 [00:11<00:00, 90.63it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 96.02it/s]
+100%|████████████████████████████████████████| 177/177 [00:01<00:00, 92.11it/s]
+
+====================================================================
+Start MOBILENET [PRE-TREINADO] | Cenário: setting1-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_PRE tr: 0.9930 (0.9930) Recall(0): 0.9879 Recall(1): 0.9980
+MOBILENET_PRE val: 0.9828 (0.9831) Recall(0): 0.9655 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9897 (0.9898) Recall(0): 0.9794 Recall(1): 1.0000
+Loss: 0.1297
+------------------ Epoch 1 --------------------
+MOBILENET_PRE tr: 0.9879 (0.9881) Recall(0): 0.9758 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9943 (0.9944) Recall(0): 0.9885 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9845 (0.9848) Recall(0): 0.9691 Recall(1): 1.0000
+Loss: 0.0342
+------------------ Epoch 2 --------------------
+MOBILENET_PRE tr: 0.9990 (0.9990) Recall(0): 1.0000 Recall(1): 0.9980
+MOBILENET_PRE val: 0.9943 (0.9944) Recall(0): 0.9885 Recall(1): 1.0000
+MOBILENET_PRE ts: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+Loss: 0.0151
+------------------ Epoch 3 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE ts: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+Loss: 0.0025
+------------------ Epoch 4 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE ts: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+Loss: 0.0003
+
+Predict all
+MOBILENET_PRE ts: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_PRE | setting1-train.txt) ---
+Acc (Acurácia Global):          1.0000  (Tabela: 1.00)
+Rec (Balanced Acc / Recall M.): 1.0000  (Tabela: 1.00)
+Recall Classe 0 (Rotten):       1.0000  (Tabela: 1.00)
+Recall Classe 1 (Fresh):        1.0000  (Tabela: 1.00)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 97 |                 0   (FN = 0)
+Real Fresh  (1):                  0 |               100   (FP = 0)
+------------------------------------------------------------
+
+FIM:    00:27:25.54
+TEMPO TOTAL MOBILENET PRE-TREINADO SETTING 1 : 246,83 segundos
+========================================
+
+
+========================================
+ MOBILENET PRE-TREINADO - SETTING 2
+========================================
+INICIO: 00:27:25.56
+Carregando dados de: setting2-train.txt, setting2-val.txt, setting2-test.txt (275x183)...
+100%|████████████████████████████████████████| 765/765 [00:07<00:00, 98.48it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 95.68it/s]
+100%|███████████████████████████████████████| 135/135 [00:01<00:00, 120.59it/s]
+
+====================================================================
+Start MOBILENET [PRE-TREINADO] | Cenário: setting2-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_PRE tr: 0.9951 (0.9961) Recall(0): 0.9922 Recall(1): 0.9980
+MOBILENET_PRE val: 0.9722 (0.9778) Recall(0): 0.9556 Recall(1): 0.9889
+MOBILENET_PRE ts: 0.9948 (0.9949) Recall(0): 0.9897 Recall(1): 1.0000
+Loss: 0.1465
+------------------ Epoch 1 --------------------
+MOBILENET_PRE tr: 0.9882 (0.9922) Recall(0): 0.9765 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9500 (0.9630) Recall(0): 0.9111 Recall(1): 0.9889
+MOBILENET_PRE ts: 0.9588 (0.9594) Recall(0): 0.9175 Recall(1): 1.0000
+Loss: 0.0262
+------------------ Epoch 2 --------------------
+MOBILENET_PRE tr: 0.9990 (0.9987) Recall(0): 1.0000 Recall(1): 0.9980
+MOBILENET_PRE val: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9948 (0.9949) Recall(0): 0.9897 Recall(1): 1.0000
+Loss: 0.0147
+------------------ Epoch 3 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9889 (0.9926) Recall(0): 0.9778 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9897 (0.9898) Recall(0): 0.9794 Recall(1): 1.0000
+Loss: 0.0043
+------------------ Epoch 4 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9889 (0.9926) Recall(0): 0.9778 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9897 (0.9898) Recall(0): 0.9794 Recall(1): 1.0000
+Loss: 0.0009
+
+Predict all
+MOBILENET_PRE ts: 0.9897 (0.9898) Recall(0): 0.9794 Recall(1): 1.0000
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_PRE | setting2-train.txt) ---
+Acc (Acurácia Global):          0.9898  (Tabela: 0.99)
+Rec (Balanced Acc / Recall M.): 0.9897  (Tabela: 0.99)
+Recall Classe 0 (Rotten):       0.9794  (Tabela: 0.98)
+Recall Classe 1 (Fresh):        1.0000  (Tabela: 1.00)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 95 |                 2   (FN = 2)
+Real Fresh  (1):                  0 |               100   (FP = 0)
+------------------------------------------------------------
+
+FIM:    00:30:26.79
+TEMPO TOTAL MOBILENET PRE-TREINADO SETTING 2 : 181,23 segundos
+========================================
+
+
+========================================
+ MOBILENET PRE-TREINADO - SETTING 3
+========================================
+INICIO: 00:30:26.79
+Carregando dados de: setting3-train.txt, setting3-val.txt, setting3-test.txt (275x183)...
+100%|████████████████████████████████████████| 765/765 [00:09<00:00, 84.70it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 93.48it/s]
+100%|████████████████████████████████████████| 135/135 [00:01<00:00, 73.28it/s]
+
+====================================================================
+Start MOBILENET [PRE-TREINADO] | Cenário: setting3-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_PRE tr: 0.9873 (0.9895) Recall(0): 0.9941 Recall(1): 0.9804
+MOBILENET_PRE val: 0.9889 (0.9926) Recall(0): 1.0000 Recall(1): 0.9778
+MOBILENET_PRE ts: 0.9798 (0.9797) Recall(0): 0.9897 Recall(1): 0.9700
+Loss: 0.1550
+------------------ Epoch 1 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9944 (0.9926) Recall(0): 0.9889 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9948 (0.9949) Recall(0): 0.9897 Recall(1): 1.0000
+Loss: 0.0305
+------------------ Epoch 2 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9898 (0.9898) Recall(0): 0.9897 Recall(1): 0.9900
+Loss: 0.0065
+------------------ Epoch 3 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9845 (0.9848) Recall(0): 0.9691 Recall(1): 1.0000
+Loss: 0.0013
+------------------ Epoch 4 --------------------
+MOBILENET_PRE tr: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE val: 1.0000 (1.0000) Recall(0): 1.0000 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.9847 (0.9848) Recall(0): 0.9794 Recall(1): 0.9900
+Loss: 0.0005
+
+Predict all
+MOBILENET_PRE ts: 0.9847 (0.9848) Recall(0): 0.9794 Recall(1): 0.9900
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_PRE | setting3-train.txt) ---
+Acc (Acurácia Global):          0.9848  (Tabela: 0.98)
+Rec (Balanced Acc / Recall M.): 0.9847  (Tabela: 0.98)
+Recall Classe 0 (Rotten):       0.9794  (Tabela: 0.98)
+Recall Classe 1 (Fresh):        0.9900  (Tabela: 0.99)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 95 |                 2   (FN = 2)
+Real Fresh  (1):                  1 |                99   (FP = 1)
+------------------------------------------------------------
+
+FIM:    00:33:30.39
+TEMPO TOTAL MOBILENET PRE-TREINADO SETTING 3 : 183,6 segundos
+========================================
+
+
+========================================
+ MOBILENET PRE-TREINADO - SETTING 4
+========================================
+INICIO: 00:33:30.39
+Carregando dados de: setting4-train.txt, setting4-val.txt, setting4-test.txt (275x183)...
+100%|█████████████████████████████████████████| 90/90 [00:00<00:00, 118.65it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 95.42it/s]
+100%|█████████████████████████████████████████| 24/24 [00:00<00:00, 149.51it/s]
+
+====================================================================
+Start MOBILENET [PRE-TREINADO] | Cenário: setting4-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_PRE tr: 0.5500 (0.7000) Recall(0): 0.1000 Recall(1): 1.0000
+MOBILENET_PRE val: 0.5000 (0.6667) Recall(0): 0.0000 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.5155 (0.5228) Recall(0): 0.0309 Recall(1): 1.0000
+Loss: 0.5214
+------------------ Epoch 1 --------------------
+MOBILENET_PRE tr: 0.6833 (0.7889) Recall(0): 0.3667 Recall(1): 1.0000
+MOBILENET_PRE val: 0.5625 (0.7083) Recall(0): 0.1250 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.6186 (0.6244) Recall(0): 0.2371 Recall(1): 1.0000
+Loss: 0.1054
+------------------ Epoch 2 --------------------
+MOBILENET_PRE tr: 0.8667 (0.9111) Recall(0): 0.7333 Recall(1): 1.0000
+MOBILENET_PRE val: 0.7500 (0.8333) Recall(0): 0.5000 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.7474 (0.7513) Recall(0): 0.4948 Recall(1): 1.0000
+Loss: 0.0238
+------------------ Epoch 3 --------------------
+MOBILENET_PRE tr: 0.9667 (0.9778) Recall(0): 0.9333 Recall(1): 1.0000
+MOBILENET_PRE val: 0.8125 (0.8750) Recall(0): 0.6250 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.8402 (0.8426) Recall(0): 0.6804 Recall(1): 1.0000
+Loss: 0.0090
+------------------ Epoch 4 --------------------
+MOBILENET_PRE tr: 0.9833 (0.9889) Recall(0): 0.9667 Recall(1): 1.0000
+MOBILENET_PRE val: 0.8125 (0.8750) Recall(0): 0.6250 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.8814 (0.8832) Recall(0): 0.7629 Recall(1): 1.0000
+Loss: 0.0049
+
+Predict all
+MOBILENET_PRE ts: 0.8814 (0.8832) Recall(0): 0.7629 Recall(1): 1.0000
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_PRE | setting4-train.txt) ---
+Acc (Acurácia Global):          0.8832  (Tabela: 0.88)
+Rec (Balanced Acc / Recall M.): 0.8814  (Tabela: 0.88)
+Recall Classe 0 (Rotten):       0.7629  (Tabela: 0.76)
+Recall Classe 1 (Fresh):        1.0000  (Tabela: 1.00)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 74 |                23   (FN = 23)
+Real Fresh  (1):                  0 |               100   (FP = 0)
+------------------------------------------------------------
+
+FIM:    00:34:03.62
+TEMPO TOTAL MOBILENET PRE-TREINADO SETTING 4 : 33,23 segundos
+========================================
+
+
+========================================
+ MOBILENET PRE-TREINADO - SETTING 5
+========================================
+INICIO: 00:34:03.62
+Carregando dados de: setting5-train.txt, setting5-val.txt, setting5-test.txt (275x183)...
+100%|██████████████████████████████████████████| 90/90 [00:00<00:00, 93.38it/s]
+100%|████████████████████████████████████████| 197/197 [00:02<00:00, 97.29it/s]
+100%|█████████████████████████████████████████| 24/24 [00:00<00:00, 174.76it/s]
+
+====================================================================
+Start MOBILENET [PRE-TREINADO] | Cenário: setting5-train.txt | Épocas: 5
+====================================================================
+------------------ Epoch 0 --------------------
+MOBILENET_PRE tr: 0.8583 (0.8111) Recall(0): 0.7167 Recall(1): 1.0000
+MOBILENET_PRE val: 0.8125 (0.7500) Recall(0): 0.6250 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.7887 (0.7919) Recall(0): 0.5773 Recall(1): 1.0000
+Loss: 0.5948
+------------------ Epoch 1 --------------------
+MOBILENET_PRE tr: 0.8917 (0.8556) Recall(0): 0.7833 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9062 (0.8750) Recall(0): 0.8125 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.8041 (0.8071) Recall(0): 0.6082 Recall(1): 1.0000
+Loss: 0.1155
+------------------ Epoch 2 --------------------
+MOBILENET_PRE tr: 0.9000 (0.8667) Recall(0): 0.8000 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9062 (0.8750) Recall(0): 0.8125 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.8247 (0.8274) Recall(0): 0.6495 Recall(1): 1.0000
+Loss: 0.0220
+------------------ Epoch 3 --------------------
+MOBILENET_PRE tr: 0.9417 (0.9222) Recall(0): 0.8833 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9062 (0.8750) Recall(0): 0.8125 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.8814 (0.8832) Recall(0): 0.7629 Recall(1): 1.0000
+Loss: 0.0074
+------------------ Epoch 4 --------------------
+MOBILENET_PRE tr: 0.9500 (0.9333) Recall(0): 0.9000 Recall(1): 1.0000
+MOBILENET_PRE val: 0.9688 (0.9583) Recall(0): 0.9375 Recall(1): 1.0000
+MOBILENET_PRE ts: 0.8969 (0.8985) Recall(0): 0.7938 Recall(1): 1.0000
+Loss: 0.0043
+
+Predict all
+MOBILENET_PRE ts: 0.8969 (0.8985) Recall(0): 0.7938 Recall(1): 1.0000
+197
+
+--- RESUMO E MATRIZ DE CONFUSAO (MOBILENET_PRE | setting5-train.txt) ---
+Acc (Acurácia Global):          0.8985  (Tabela: 0.90)
+Rec (Balanced Acc / Recall M.): 0.8969  (Tabela: 0.90)
+Recall Classe 0 (Rotten):       0.7938  (Tabela: 0.79)
+Recall Classe 1 (Fresh):        1.0000  (Tabela: 1.00)
+
+Matriz de Confusão (Teste):
+                 Previsto Rotten(0) | Previsto Fresh(1)
+Real Rotten (0):                 77 |                20   (FN = 20)
+Real Fresh  (1):                  0 |               100   (FP = 0)
+------------------------------------------------------------
+
+FIM:    00:34:36.95
+TEMPO TOTAL MOBILENET PRE-TREINADO SETTING 5 : 33,33 segundos
+========================================
