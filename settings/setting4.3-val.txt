@@ -1,0 +1,13 @@
+1;fresh;dataset\fresh\freshStrawberry (368)1.jpg
+1;fresh;dataset\fresh\freshStrawberry (107)1.jpg
+0;rotten;dataset\rotten\rottenStrawberry (129)1.jpg
+0;rotten;dataset\rotten\rottenStrawberry (93)1.jpg
+0;rotten;dataset\rotten\rottenStrawberry (98)1.jpg
+1;fresh;dataset\fresh\freshStrawberry (169)1.jpg
+1;fresh;dataset\fresh\freshStrawberry (568)1.jpg
+1;fresh;dataset\fresh\freshStrawberry (262)1.jpg
+1;fresh;dataset\fresh\freshStrawberry (366)1.jpg
+1;fresh;dataset\fresh\FreshStrawberry (194)!.jpg
+0;rotten;dataset\rotten\rottenStrawberry (399)1.jpg
+1;fresh;dataset\fresh\freshStrawberry (522)1.jpg
+1;fresh;dataset\fresh\freshStrawberry (524)1.jpg
